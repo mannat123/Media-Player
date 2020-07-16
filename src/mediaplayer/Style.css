@@ -1,0 +1,49 @@
+#buttoncolor,#buttoncolor2,#buttoncolor3,#buttoncolor4,#buttoncolor5{
+    -fx-background-color:white;
+}
+
+
+#stackid{
+    -fx-background-color:whitesmoke;
+}
+#panelbox{
+    -fx-background-color:#484848;
+}
+#seekSlider {
+    -fx-opacity: 0;
+}
+#seekSlider:hover {
+    -fx-opacity: 1;
+    }
+#openFile{
+    -fx-background-image: url("../images/folder.png");
+    -fx-background-size: 25 25;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    -fx-background-color: transparent;
+}
+
+
+#playButton{
+    -fx-background-image: url("../images/play.png");
+    -fx-background-size: 25 25;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    -fx-background-color: transparent;
+}
+
+#pauseButton{
+    -fx-background-image: url("../images/pause.png");
+    -fx-background-size: 23 23;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    -fx-background-color: transparent;
+}
+
+#stopButton{
+    -fx-background-image: url("../images/stop.png");
+    -fx-background-size: 30 30;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    -fx-background-color: transparent;
+}
